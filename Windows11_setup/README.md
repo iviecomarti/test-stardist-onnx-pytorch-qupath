@@ -160,7 +160,7 @@ PyTorch Library: C:\Users\Usuario\.djl.ai\pytorch\2.7.1-cu128-win-x86_64
 
 Go to `Extensions > Manage Extensions`, find **QuPath StarDist extension v0.6.0**, install it, and restart QuPath using `qupath-ort-pytorch-gpu.bat`.
 
-If you downloaded the StarDist models converted to **ONNX** with the Colab Notebook, you can use the scripts in the `inference_StarDist_Onnx` folder.
+If you downloaded the StarDist models converted to **ONNX** with the Colab Notebook, you can use the scripts in the `inference_stardist_onnx` folder.
 There is one inference script for `he_heavy_augment.onnx` and one for `dsb2018_heavy_augment.onnx`.
 
 These scripts use **QuPath StarDist extension v0.6.0**, but for inference they use DJL with ONNX Runtime.
