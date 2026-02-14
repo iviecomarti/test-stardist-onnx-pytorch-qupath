@@ -25,11 +25,10 @@ You need to find the file: qupath.djl-conventions.gradle.kts
 
 It is located here: `\qupath_source\qupath\buildSrc\src\main\kotlin\qupath.djl-conventions.gradle.kts`
 
-Once you have this file, you can do two things:
 
-First, you can download the file with the same name from this repository and replace it.
 
-Alternatively, find the following lines in the file (they appear twice):
+
+Once you have this file, find the following lines in the file (they appear twice):
 
 ```
 	if ("onnx" in djlEngines || "onnxruntime" in djlEngines) {
@@ -65,12 +64,19 @@ if ("onnx" in djlEngines || "onnxruntime" in djlEngines) {
 	}
 ```
 
+It looks like this for me:
+<img width="1652" height="884" alt="image" src="https://github.com/user-attachments/assets/b8abe34f-5236-4f20-ad57-0392c5925da7" />
+
+
 
 > [!IMPORTANT]  
 > Crreate gradle.properties file
 
 
-Now you need to create (or download, then paste) the gradle.properties file.
+Now you need to create  `gradle.properties` file, I used VSCode, in this directory: `\qupath_source\qupath` 
+
+<img width="1149" height="899" alt="image" src="https://github.com/user-attachments/assets/afeabc00-dab3-487a-b977-cdfe62fc1e26" />
+
 
 This tells QuPath to download the ONNX Runtime (with GPU support) and PyTorch engines. The contents are:
 
