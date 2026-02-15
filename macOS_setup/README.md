@@ -17,7 +17,7 @@ djl.engines=pytorch,onnxruntime
 Then build QuPath using:
 
 ```
-./gradlew clean jpackage -P package=installer
+./gradlew clean jpackage 
 ```
 
 
